@@ -2,6 +2,8 @@ import cv2
 import numpy as np
 import math
 
+############################
+
 panorama = cv2.imread(r'\pano_000003_000436.jpg')
 
 face_size = 1024  
