@@ -1,0 +1,21 @@
+pip install 
+opencv-python==4.5.4.58
+opencv-contrib-python==4.5.4.58
+numpy==1.26.4
+geopandas==1.0.1
+networkx==3.2.1
+openpyxl==3.1.5
+pandas==2.2.3
+pillow==11.0.0
+scikit-learn==1.6.0
+scikit-image==0.24.0
+shapely==2.1.0
+torch==1.13.1+cu117
+torchaudio==0.13.1+cu117
+torchvision==0.14.1+cu117
+tqdm==4.67.0
+ultralytics==8.3.32
+
+The packages torch, torchvision and torchaudio are to be installed after installing ultralytics and can be installed using the following command to get its correct CUDA version
+
+pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1+cu117 -f https://download.pytorch.org/whl/cu117/torch_stable.html
